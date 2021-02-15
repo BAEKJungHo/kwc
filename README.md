@@ -8,7 +8,7 @@
 - 2차 목표
   - JPA 로 변경
 - 3차 목표
-  - 디자이너와 퍼블리셔 구해서 
+  - 디자이너와 퍼블리셔 구해서 진행
 
 ## Info
 
@@ -22,6 +22,8 @@ _Personal Side Project_
   - Gradle 6.7.1
   - Junit5
   - Thymeleaf
+  - AWS
+  - GitHub
 - 메뉴 구성
   - 업체 홍보
   - 
