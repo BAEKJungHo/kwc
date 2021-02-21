@@ -1,15 +1,5 @@
 # KWC(Korea Workout Community)
 
-## Goal
-
-- 1차 목표
-  - JPA 미사용 기능 구현
-  - 화면단 안이뻐도됨
-- 2차 목표
-  - JPA 로 변경
-- 3차 목표
-  - 디자이너와 퍼블리셔 구해서 진행
-
 ## Info
 
 _Personal Side Project_
@@ -25,6 +15,7 @@ _Personal Side Project_
   - AWS
   - GitHub
   - PostgreSQL
+  - JPA
 - 메뉴 구성
   - 업체 홍보
     - 업체 홍보
