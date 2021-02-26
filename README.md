@@ -47,6 +47,7 @@
 - AWS
 - PostgreSQL
 - JPA
+- OAuth2
 - GitHub
 - JIRA, Zeplin
 
