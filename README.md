@@ -53,3 +53,6 @@
 - GitHub
 - JIRA, Zeplin
 
+## 참고
+
+> [Zeplin 사용법](https://blog.rightbrain.co.kr/?p=8427)
