@@ -26,6 +26,7 @@ _Personal Side Project_
   - GitHub
   - PostgreSQL
   - JPA
+  - JIRA, 디자인과 협업 시 Zeplin
 - 메뉴 구성
   - 업체 홍보
     - 업체 홍보
