@@ -1,5 +1,3 @@
-# KWC(Korea Workout Community)
-
 - 프로젝트 진행 기간 
   - 2021.03.15 ~ 약 3개월 간
 
