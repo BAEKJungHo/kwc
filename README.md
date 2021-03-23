@@ -1,6 +1,4 @@
-## Gym Manager
-
-This repository is Gym Manager For Side Team Project.
+# Gym Manager
 
 [Go to Wiki](https://github.com/BAEKJungHo/GymManager/wiki)
 
