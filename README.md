@@ -1,4 +1,4 @@
-# Gym Manager
+# Gymzzak
 
 [Go to Wiki](https://github.com/BAEKJungHo/GymManager/wiki)
 
