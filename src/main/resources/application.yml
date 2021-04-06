@@ -8,14 +8,30 @@
 #    password:
 #    driver-class-name: org.h2.Driver
 #
-#  # JPA setting : 이러한 설정들은 스프링 부트 매뉴얼에 있다.
-#  jpa:
-#    hibernate:
-#      ddl-auto: create # 애플리케이션 실행 시점에 테이블을 전부 삭제하고 Entity 를 참고해서 다시 생성한다.
-#    properties:
-#      hibernate:
-#        #        show_sql: true # hibernate 가 DB 에 날리는 모든 쿼리를 보여준다. > sysout 으로 찍기 때문에 운영에선 사용 X
-#        format_sql : true # 보여지는 쿼리를 예쁘게 세팅한다.
+
+# Database setting
+server:
+  address: localhost
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/gymzzak
+    username: root
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    generate-ddl: true
+
+# JPA setting : 이러한 설정들은 스프링 부트 매뉴얼에 있다.
+jpa:
+  hibernate:
+    ddl-auto: create # 애플리케이션 실행 시점에 테이블을 전부 삭제하고 Entity 를 참고해서 다시 생성한다.
+  properties:
+    hibernate:
+      #        show_sql: true # hibernate 가 DB 에 날리는 모든 쿼리를 보여준다. > sysout 으로 찍기 때문에 운영에선 사용 X
+      format_sql : true # 보여지는 쿼리를 예쁘게 세팅한다.
 
 # log level
 logging:
