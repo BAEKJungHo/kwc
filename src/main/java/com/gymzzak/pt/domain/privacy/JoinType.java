@@ -1,4 +1,4 @@
-package com.gymzzak.pt.privacy.domain;
+package com.gymzzak.pt.domain.privacy;
 
 public enum JoinType {
     HOMEPAGE, GMAIL, KAKAO
