@@ -1,6 +1,7 @@
 package com.gymzzak.pt.domain.privacy;
 
 
+import com.gymzzak.pt.domain.base.BaseEntity;
 import lombok.Getter;
 
 import javax.persistence.Embedded;
@@ -15,7 +16,7 @@ import javax.persistence.Table;
 @Getter
 @Table(name = "GZ_PRIVACY")
 @Entity
-public class Privacy {
+public class Privacy extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

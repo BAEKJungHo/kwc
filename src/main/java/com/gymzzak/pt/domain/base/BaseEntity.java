@@ -1,6 +1,8 @@
 package com.gymzzak.pt.domain.base;
 
 import lombok.EqualsAndHashCode;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -16,10 +18,10 @@ public class BaseEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Temporal(TemporalType.TIMESTAMP)
+    @CreatedDate
     private LocalDateTime createdAt;
 
-    @Temporal(TemporalType.TIMESTAMP)
+    @LastModifiedDate
     private LocalDateTime lastModifiedAt;
 
 }
