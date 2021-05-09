@@ -1,1 +1,6 @@
-rootProject.name = 'pt'
+rootProject.name = 'Gymzzak'
+include 'gymzzak-core'
+include 'gymzzak-admin'
+include 'gymzzak-user'
+include 'gymzzak-common'
+
